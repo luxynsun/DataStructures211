@@ -4,7 +4,7 @@ Height seems to grow fast at first, as size grows. However, the growth of height
 This shows logarithmic growth.
 It fits my expectation, given O(h) for a binary search tree would be O(log n), and this rate of growth is logarithmic.
 
-![random BST]https://github.com/luxynsun/DataStructures211/blob/main/Picture1.png
+![Random BST](https://github.com/luxynsun/DataStructures211/blob/main/Picture1.png)
 
 2. In Assignment 02, you wrote a program that counted the number of distinct words in a text file using a SimpleUSet implementation. Since words are stored as Strings—which implement the Comparable interface—the words can be stored in a SimpleSSet as well. Modify your word-reading program from Assignment 02 to compare the performance of your BinarySearchTree implementation to the provided ArraySimpleSSet implementation of SimpleSSet. Note that ArraySimpleSSet stores the words in an array, and uses binary search for all finding operations. Which implementation, BinarySearchTree or ArraySimpleSSet is faster for reading the words from a few provided texts? Is the difference significant? Why might you expect one or the other implementation to be faster?
 
