@@ -10,11 +10,12 @@ It fits my expectation, given O(h) for a binary search tree would be O(log n), a
 
 ArraySimpleSSet proves to be faster, though the difference is not significant in seconds, it is more significant in nanoseconds. 
 Please see several runs and their times in nanoseconds. TesterClass.java includes the program that will announce the resulting running time of a text file imported.
-Text title/nanoseconds	BinarySearchTree 	ArraySimpleSSet
-The Ilad	7569	2032
-English Words	10351	2273
-Moby Dick	11620	2148
-Portrait of the Artist	16545	2111
+Text title/nanoseconds | BinarySearchTree | ArraySimpleSSet
+-----------------------|------------------|----------------
+The Ilad |7569 | 2032
+English Words | 10351 | 2273
+Moby Dick | 11620 | 2148
+Portrait of the Artist | 16545 |2111
 
 Possible reasons for binary search arrays to be slightly faster include:
 1) A node in a binary search tree is bigger than an item in an array, for it needs to store left and right pointers and value.
